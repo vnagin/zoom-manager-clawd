@@ -12,7 +12,14 @@ metadata: {
 
 # Zoom Manager
 
-Manage your Zoom meetings directly from Clawdbot.
+Manage your Zoom meetings directly from Clawdbot with this powerful, headless integration. This skill allows you to automate your webinar and meeting workflows without ever opening the Zoom dashboard.
+
+### Key Features:
+- **Full Meeting Lifecycle**: Create, list, update, and delete meetings using simple natural language or CLI commands.
+- **Enterprise-Ready**: Built for Server-to-Server OAuth, ensuring secure and robust authentication.
+- **Automated Recording**: Default support for cloud recording to make sure your sessions are always captured.
+- **Developer Friendly**: Clean Node.js implementation that can be easily extended for custom automation flows (e.g., auto-scheduling after a CRM update).
+- **Headless & Fast**: No browser required; interacts directly with the Zoom REST API v2.
 
 ## Setup
 
