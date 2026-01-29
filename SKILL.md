@@ -12,7 +12,7 @@ metadata: {
 
 # Zoom Manager
 
-Manage your Zoom meetings directly from Clawdbot with this powerful, headless integration. This skill allows you to automate your webinar and meeting workflows without ever opening the Zoom dashboard.
+Manage your Zoom meetings directly from Clawdbot with this powerful, headless integration. This skill allows you to automate your meeting workflows without ever opening the Zoom dashboard.
 
 ### Key Features:
 - **Full Meeting Lifecycle**: Create, list, update, and delete meetings using simple natural language or CLI commands.
