@@ -17,8 +17,11 @@ Manage your Zoom meetings directly from Clawdbot.
 ## Setup
 
 1. Create a **Server-to-Server OAuth** app in the [Zoom App Marketplace](https://marketplace.zoom.us/).
-2. Get your **Client ID**, **Client Secret**, and **Account ID**.
-3. Set them as environment variables:
+2. **Scopes Required**: Ensure you add the following scopes in the "Scopes" tab:
+   - `meeting:read:admin` or `meeting:read` (to list and view meetings)
+   - `meeting:write:admin` or `meeting:write` (to create, update, and delete meetings)
+3. Get your **Client ID**, **Client Secret**, and **Account ID** from the "App Credentials" tab.
+4. Set them as environment variables in your Clawdbot config:
    - `ZOOM_CLIENT_ID`
    - `ZOOM_CLIENT_SECRET`
    - `ZOOM_ACCOUNT_ID`
